@@ -97,7 +97,6 @@ button:disabled {
   line-height: 1.8;
 }
 
-
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -116,6 +115,7 @@ button:disabled {
 
 .panel h2 {
   margin: 0 0 6px;
+  color: #172554;
   font: 800 20px "Manrope", sans-serif;
 }
 

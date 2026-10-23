@@ -1,4 +1,3 @@
-
 # UserBase — User Management API
 
 A full-stack user management application built as part of a Full-Stack Developer Practical Assessment. It provides REST APIs for creating, retrieving, replacing, partially updating, and listing users, along with a React frontend.
