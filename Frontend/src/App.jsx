@@ -82,8 +82,9 @@ export default function App() {
     setForm({ ...form, [event.target.name]: event.target.value });
   }
 
+  //Create user form
   async function handleCreate(event) {
-    event.preventDefault();
+    event.preventDefault(); 
     setCreateError(null);
     setCreateMessage("");
     setCreatedUser(null);
@@ -125,6 +126,7 @@ export default function App() {
     }
   }
 
+// searches USER by ID
   async function handleLookup(event) {
     event.preventDefault();
     setLookupError(null);
