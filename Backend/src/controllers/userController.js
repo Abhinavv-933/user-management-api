@@ -3,7 +3,7 @@ import bcrypt from "bcryptjs";
 import mongoose from "mongoose";
 import User from "../models/User.js";
 
-const SALT_ROUNDS = 12;
+const SALT_ROUNDS = 12;//bcrypt hashing rounds
 
 function userResponse(user) {
   return {
